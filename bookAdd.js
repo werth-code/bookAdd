@@ -3,7 +3,7 @@ This is a simple program to add books to an array.
 It will not add any books that contain the word "great"
 */
 
-var favoriteBooks = [];
+const favoriteBooks = [];
 function addFavoriteBook(bookName) {
   if(!bookName.includes("Great")) {
   favoriteBooks.push(bookName);
